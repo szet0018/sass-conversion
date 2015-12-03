@@ -21,6 +21,13 @@
         &:before, &:after {
             width: 230px;
         }
+//            &:before {
+//                width: 230px;
+//            }
+//            &:after {
+//                @extend .'&:before';
+//            }
+            width: 230px;
         h1 i.fa-lg {
             display: inline;
             color: #7C593C;
@@ -70,6 +77,7 @@
     footer {
         width: 700px;
         margin: 0 auto;
+//        @extend .&.section;
     }
     .col-4 {
         width: 50%;
@@ -275,6 +283,7 @@
         &.focal, &.content1, &.content2 {
             width: 1400px;
             margin: 0 auto;
+//            @extend .footer;
         }
     }
     footer {

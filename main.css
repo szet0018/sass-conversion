@@ -6,7 +6,8 @@
   header {
     width: 700px;
     margin: 0 auto;
-    min-height: 8rem; }
+    min-height: 8rem;
+    width: 230px; }
     header h1 {
       width: 100%;
       color: #7C593C; }
@@ -436,7 +437,7 @@ footer h4[lang=en], footer h4[lang=ar], footer h4[lang=ru] {
 
 html {
   font-size: 16px;
-  font-family: "Josefin Sans", "Trebuchet MSÔÇÖ, Helvetica, sans-serif;\a     /* default for whole page */\a     line-height: 1.6;\a}\a \ah1, h2, h3, h4 {\a     font-family: Cardo, " Palatino LinotypeÔÇÖ, ÔÇÿBook AntiquaÔÇÖ, Palatino, serif;
+  font-family: "Josefin Sans", "Trebuchet MSÔÇÖ, Helvetica, sans-serif;\a     /* default for whole page */\a     line-height: 1.6;\a}\a \ah1, h2, h3, h4 {\a     font-family: " Cardo ", " Palatino LinotypeÔÇÖ, ÔÇÿBook AntiquaÔÇÖ, Palatino, serif;
   /* serif for the headings */ }
 
 ul {
