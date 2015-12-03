@@ -1,0 +1,57 @@
+//getting sass to watch the file
+//open cmd ruby
+//cd documents\GitHub\sass-conversion
+//sass --watch sass\main.scss:main.css
+
+//sass --watch sass:css
+
+/***********************************************
+                CONTENT
+***********************************************/
+
+.focal {
+    h2 {
+        font-size: 1.999rem;
+        line-height: 1.2;
+        padding: 2rem 2rem 1rem 2rem;
+    }
+        .author {
+            font-size: 1rem;
+            padding: 0.2rem 2rem 2rem;
+        }
+}
+
+.content1 {
+    h3 {
+        font-size: 1.999rem;
+        padding: 0.2rem 2rem 2rem;
+        i {
+            vertical-align: middle;
+            padding-right: 2rem;
+        }
+    }
+    p {
+        font-size: 1.414rem;
+        padding: 0.5rem 2rem 2rem;
+    }
+}
+
+.content2 {
+    h3 {
+        font-size: 1.999rem;
+        padding: 1rem 2rem 0.5rem;
+    }
+    h4 {
+        font-size: 1.999rem;
+        padding: 1rem 2rem 0rem;
+    }
+    p {
+        font-size: 1.414rem;
+        padding: 0.5rem 2rem 1rem;
+    }
+    li {
+        padding: 0.5rem 2rem;
+        font-size: 1.414rem;
+    }
+}
+

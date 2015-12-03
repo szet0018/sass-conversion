@@ -300,61 +300,6 @@ header h1 {
       text-align: right; }
 
 /***********************************************
-                FOOTER
-***********************************************/
-footer h4 {
-  font-size: 1.414rem;
-  padding: 0.5rem 2rem;
-  color: #7C593C; }
-footer p {
-  font-size: 1rem;
-  padding: 0.5rem 2rem;
-  color: #222; }
-footer .fa-circle {
-  color: #222; }
-footer h4[lang=de] {
-  display: block; }
-footer h4[lang=en], footer h4[lang=ar], footer h4[lang=ru] {
-  display: none; }
-
-/***********************************************
-                NOTES
-light blue  #C7F7FF
-med blue    #89C0C9
-dark blue   #3a5E63
-light brown #C9A689
-dark brown  #7C593C
-light grey  #d4d4d4
-dark grey   #222
-
-                DEFAULTS
-***********************************************/
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-  *:after, *:before {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit; }
-
-html {
-  font-size: 16px;
-  font-family: "Josefin Sans", "Trebuchet MSÔÇÖ, Helvetica, sans-serif;\a   /* default for whole page */\a   line-height: 1.6;\a}\a \ah1, h2, h3, h4 {\a   font-family: Cardo, " Palatino LinotypeÔÇÖ, ÔÇÿBook AntiquaÔÇÖ, Palatino, serif;
-  /* serif for the headings */ }
-
-ul {
-  list-style: none; }
-
-/***********************************************
-                SPECIAL
-***********************************************/
-.clearfix:after {
-  display: table;
-  clear: both;
-  content: ""; }
-
-/***********************************************
                 LAYOUT
 ***********************************************/
 .bg-header {
@@ -429,6 +374,24 @@ footer {
     border-left: 0; }
 
 /***********************************************
+                FOOTER
+***********************************************/
+footer h4 {
+  font-size: 1.414rem;
+  padding: 0.5rem 2rem;
+  color: #7C593C; }
+footer p {
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  color: #222; }
+footer .fa-circle {
+  color: #222; }
+footer h4[lang=de] {
+  display: block; }
+footer h4[lang=en], footer h4[lang=ar], footer h4[lang=ru] {
+  display: none; }
+
+/***********************************************
                 CONTENT
 ***********************************************/
 .focal h2 {
@@ -461,5 +424,30 @@ footer {
 .content2 li {
   padding: 0.5rem 2rem;
   font-size: 1.414rem; }
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:after, *:before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit; }
+
+html {
+  font-size: 16px;
+  font-family: "Josefin Sans", "Trebuchet MSÔÇÖ, Helvetica, sans-serif;\a     /* default for whole page */\a     line-height: 1.6;\a}\a \ah1, h2, h3, h4 {\a     font-family: Cardo, " Palatino LinotypeÔÇÖ, ÔÇÿBook AntiquaÔÇÖ, Palatino, serif;
+  /* serif for the headings */ }
+
+ul {
+  list-style: none; }
+
+/***********************************************
+                SPECIAL
+***********************************************/
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: ""; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,103 @@
+//getting sass to watch the file
+//open cmd ruby
+//cd documents\GitHub\sass-conversion
+//sass --watch sass\main.scss:main.css
+
+//sass --watch sass:css
+
+/***********************************************
+                LAYOUT
+***********************************************/
+
+.bg-header {
+    background-color: #fff;
+    background-color: #C7F7FF;
+    color: #222;
+    border-bottom: 1rem solid #89C0C9;
+    border-top: 1rem solid #3a5E63;
+    position: relative;
+    &:before, &:after {
+        content: "";
+        position: absolute;
+        bottom: -1rem;
+        width: 30%;
+        height: 1rem;
+        background-color: #3a5E63;
+    }
+    &:before {
+        left: 0;
+    }
+    &:after {
+        right: 0;
+    }
+}
+
+.bg-focal {
+  background-color: #C9A689;
+  color: #7C593C;
+}
+
+.bg-content1 {
+  background-color: #fff;
+  color: #222;
+}
+
+.bg-content2 {
+  background-color: #C7F7FF;
+  color: #3a5E63;
+}
+
+.bg-footer {
+  background-color: #fff;
+  color: #d4d4d4;
+}
+
+header {
+    width: 400px;
+    /* default */
+    margin: 0 auto;
+    position: relative;
+    h1 {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    nav {
+        width: 100%;
+        > ul li {
+            width: 100%;
+            float: none;
+        }
+    }
+}
+
+section {
+    &.focal {
+        width: 400px;
+        /* default */
+        margin: 0 auto;
+    }
+    &.content1, &.content2 {
+        padding: 2rem 0;
+    }
+}
+
+.row {
+  clear: both;
+}
+
+.col-2 {
+  width: 50%;
+  float: left;
+  padding-bottom: 2rem;
+  border-left: 1px solid #3a5E63;
+  margin-bottom: 2rem;
+}
+
+footer {
+    .col-2:first-child {
+        border-left: 0;
+    }
+    padding: 2rem 0;
+    p:last-child {}
+}
+
