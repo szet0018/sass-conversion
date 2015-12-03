@@ -1,0 +1,45 @@
+//create the columns here
+
+// media queries --> mixin
+
+//@mixin mama-bear {
+//    @media (min-width:35rem) and (max-width:60rem) {
+//        @content;
+//    }
+//}
+
+//ul {
+//    @include mama-bear {
+//        display: inline;
+//    }
+
+@mixin small-view {
+    @media all and (min-width: 701px) and (max-width: 900px) {
+        @content; 
+    }
+}
+
+@mixin medium-view {
+    @media all and (min-width: 901px) and (max-width: 1400px) {
+        @content;
+    }
+}
+
+@mixin large-view {
+    @media all and (min-width: 1401px) {
+        @content;
+    }
+}
+
+@mixin equal-spacing($n, $w, $s){
+    
+    // width of individual column
+    width: ($w - $s*($n - 1))/$n; 
+    
+    margin: 0 0 0 $s;
+    
+    // first column will have margin left 0
+    &:first-child {
+        margin: 0;
+    }
+}

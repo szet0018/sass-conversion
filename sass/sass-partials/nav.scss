@@ -1,0 +1,49 @@
+/***********************************************
+                NAVIGATION
+***********************************************/
+
+header {
+  nav {
+    padding: 2rem 0;
+    clear: both;
+    > ul > li > a {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #222;
+      font-size: 1.414rem;
+      letter-spacing: 0.25rem;
+      border: 1px solid #d4d4d4;
+      border-bottom: none;
+      padding: 1.0rem 2rem;
+      line-height: 1;
+      background-color: #fff;
+      &:hover {
+        font-weight: 700;
+        color: #7C593C;
+      }
+    }
+  }
+  h1 {
+    color: #7C593C;
+    letter-spacing: 0.1rem;
+    i.fa-lg {
+      display: block;
+      width: 25%;
+      float: left;
+      font-size: 7rem;
+      line-height: 12.7936rem;
+      color: #C9A689;
+      ~ span {
+        float: right;
+        width: 75%;
+        font-size: 3.998rem;
+        /**
+        2 lines of 3.998 * 1.6 = 12.7936
+        **/
+        padding-left: 1rem;
+        text-align: right;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+/***********************************************
+                FOOTER
+***********************************************/
+
+footer {
+  h4 {
+    font-size: 1.414rem;
+    padding: 0.5rem 2rem;
+    color: #7C593C;
+  }
+  p {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    color: #222;
+  }
+  .fa-circle {
+    color: #222;
+  }
+  h4 {
+    &[lang=de] {
+      display: block;
+    }
+    &[lang=en], &[lang=ar], &[lang=ru] {
+      display: none;
+    }
+  }
+}
